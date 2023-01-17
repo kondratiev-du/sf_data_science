@@ -1,4 +1,7 @@
-# sf_data_science
-sf homeworrk
-# hello
-second version
+# My education page, SkillFactory, DST
+
+## Education projects
+
+* [Проект 0. Игра: угадай число] ()
+* [Проект ]
+* [Проект ]
