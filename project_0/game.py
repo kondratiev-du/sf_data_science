@@ -2,6 +2,7 @@
 
 import numpy as np
 
+
 def game_core(number: int=1) -> int:
     """Функция угадывает число меньше, чем за 20 попыток.
 
@@ -20,10 +21,10 @@ def game_core(number: int=1) -> int:
         count += 1
         if predict < number:
             min_num = predict
-            predict = max_num - (max_num - min_num)//2
+            predict = max_num - (max_num-min_num)//2
         elif predict > number:
             max_num = predict
-            predict = min_num + (max_num - min_num)//2
+            predict = min_num + (max_num-min_num)//2
             
     return count
 
