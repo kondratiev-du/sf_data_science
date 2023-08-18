@@ -1,5 +1,4 @@
 import pandas as pd
 
-df = pd.read_csv('/data/solarpower.csv')
-
-df.info()
+solar_data = pd.read_csv('data/solarpower.csv')
+solar_data.head()
